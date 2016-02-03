@@ -28,7 +28,13 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = [
+        'first_name',
+        'last_name',
+        'access_level',
+        'email',
+        'password'
+    ];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -36,4 +42,14 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    /**
+     * Method to get avatar
+     *
+     * @return avatar
+     */
+    public function getAvatarUrl()
+    {
+        return "http://www.gravatar.com/avatar/{{ md5($this->email) }} ? s=80";
+    }
 }

@@ -1,0 +1,237 @@
+/**
+ * Homepage css
+ */
+
+.background {
+  background: url( ../img/homepage.jpeg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.home {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 20%;
+}
+
+.auth {
+  margin-top: 5%;
+}
+
+.auth a {
+  text-decoration: none;
+}
+
+.reg {
+  margin: 10px;
+  padding: 20px;
+}
+
+.signup {
+  background-color: #A95111;
+}
+
+.signup:hover {
+  background-color: #84512D;
+}
+
+.title {
+  margin-left: 3%;
+}
+
+.title a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/**
+ * Footer css
+ */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #312F2F;
+}
+
+.footer-top p {
+  margin-top: 2%;
+  color: #fff;
+  font-weight: 100;
+}
+
+/**
+ * Login CSS
+ */
+
+.white {
+    background: #FFF;
+    opacity: 0.9;
+    padding: 2% 5%;
+    border-radius: 10px;
+}
+
+.register {
+    margin-top: 30%;
+}
+
+/**
+ * Navbar css
+ */
+
+.navbar-inverse {
+    background-color: #312F2F;
+    border-color: #312F2F;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color : #FFF;
+}
+
+.user-image{
+    margin-top: 5px;
+    border-radius:25px;
+    height: 40px;
+}
+
+/**
+ * Sidebar Admin Navbar
+ */
+
+#wrapper {
+    height: 100%;  
+}
+
+#sidebar-wrapper {
+    margin-top:-20px;
+    margin-left: -80px;
+    left: 70px;
+    width: 150px;
+    background: #312F2F;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar-nav {
+    display: block;
+    float: left;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar-menu li a, .sidebar-nav li a {
+    color: #999;
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 150px;
+    background: #252525;
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+.sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+/*.home h2{
+    padding: 3% 0;
+}*/
+
+/*.error {
+    margin-top: 5%;
+}
+
+ul.unstyled, ol.unstyled {
+    margin-left: 0;
+    list-style: none;
+    background: ##333;
+}
+.widget-menu {
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.widget li {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.widget li a{
+    color: #fff;
+    list-style: none;
+}*/
+
+/**
+ * Fonts
+ 
+
+.text {
+  text-align: center;
+  font-style: italic;
+}*/
